@@ -1,0 +1,3 @@
+docker build -t mi-spring-app .
+docker rm mi-spring-container
+docker run --name mi-spring-container -p 8090:8080 mi-spring-app
