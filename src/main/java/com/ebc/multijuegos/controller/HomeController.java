@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-        return "¡Hola mundo!";
+        return "¡Hola mundo! Ya estás en AWS";
     }
 }
