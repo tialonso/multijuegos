@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-        return "¡Hola mundo! Bienvenido a SSH y Pipeline";
+        return "¡Hola mundo! Gatito!!!!";
     }
 }
